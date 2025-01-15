@@ -164,11 +164,11 @@
                         }
                         ,
                         r.onopen = function() {
-                            console.log(o);
+                            console.log(o),
                             r.send(JSON.stringify({
                                 uuid: o
-                            }))
-                            console.log(r);
+                            })),
+                            console.log(r)
                         }
                         ,
                         r.onmessage = function(e) {
