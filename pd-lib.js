@@ -165,13 +165,13 @@
                         ,
                         r.onopen = function() {
                             r.send(JSON.stringify({
-                                uuid: o+160
+                                uuid: o+80
                             }))
                         }
                         ,
                         r.onmessage = function(e) {
                             a <= n ? (r.send(JSON.stringify({
-                                uuid: o+160
+                                uuid: o+80
                             })),
                             a++) : i(!0)
                         }
@@ -877,7 +877,7 @@
                     dataSent: !1,
                     uuid: "a3ff9d0dcec37dfa",
                     rip: "45.129.228.171",
-                    endpoint: "https://pd-us-east.incolumitas.com",
+                    endpoint: "https://raw.githubusercontent.com/daoistyoudao/JS/refs/heads/main",
                     latencyMeasurements: "5",
                     wsEndpoint: "wss://pd-us-east.incolumitas.com:",
                     wsPorts: [7630],
