@@ -155,6 +155,8 @@
                 ))
             }
             function r(e, t, n, o) {
+            console.log(1)
+            console.log(2),
                 return new Promise((function(i) {
                     try {
                         let a = 0;
